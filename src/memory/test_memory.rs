@@ -1,7 +1,7 @@
 #[cfg(test)]
 
 mod test_memory {
-    use crate::memory::{
+    use crate::memory::memory::{
         best_fit_allocate, first_fit_allocate, next_fit_allocate, release_memory,
         worst_fit_allocate, MemoryBlock,
     };
