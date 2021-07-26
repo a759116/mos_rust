@@ -1,5 +1,5 @@
 [package]
-name = "oslabs"
+name = "mos_rust"
 version = "0.1.0"
 authors = ["Rudra Panda <rudra.panda@target.com>"]
 edition = "2018"
