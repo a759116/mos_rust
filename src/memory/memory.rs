@@ -1,9 +1,40 @@
-#[derive(Debug, Default, Clone, Copy, PartialEq, Eq)]
+
+use serde::{Deserialize, Serialize};
+
+#[derive(Deserialize, Serialize, Debug, Default, Clone, Copy, PartialEq, Eq, )]
 pub struct MemoryBlock {
-    pub(crate) start_address: i32,
-    pub(crate) end_address: i32,
-    pub(crate) segment_size: i32,
-    pub(crate) process_id: i32, //0 indicates a free block
+    pub start_address: i32,
+    pub end_address: i32,
+    pub segment_size: i32,
+    pub process_id: i32, //0 indicates a free block
+}
+
+#[allow(dead_code)]
+impl MemoryBlock {
+    fn get_start_address(&self) -> &i32 {
+        &self.start_address
+    }
+    fn set_start_address(&mut self) -> &mut i32 {
+        &mut self.start_address
+    }
+    fn get_end_address(&self) -> &i32 {
+        &self.end_address
+    }
+    fn set_end_address(&mut self) -> &mut i32 {
+        &mut self.end_address
+    }
+    fn get_segment_size(&self) -> &i32 {
+        &self.segment_size
+    }
+    fn set_segment_size(&mut self) -> &mut i32 {
+        &mut self.segment_size
+    }
+    fn get_process_id(&self) -> &i32 {
+        &self.process_id
+    }
+    fn set_process_id(&mut self) -> &mut i32 {
+        &mut self.process_id
+    }
 }
 
 pub fn best_fit_allocate(
