@@ -5,6 +5,7 @@ I developed this code as part of my learning Rust. I had already developed the s
 
 The use-case section of this article would link to the page with problem description. The design section would details the code structure. The run and extend section would detail the process to run this code, prerequisities, and options to extend this code. I hope that this would make it easier for the reader to learn Rust.
 ## Use-cases
+[Click here for use-case details](https://github.com/a759116/mos_rust/wiki/Use-Cases)
 
 ## Design
 ## Run and Extend
