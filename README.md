@@ -8,10 +8,8 @@ I developed this code as part of my learning Rust. I had already developed the s
 The use-case section of this article would link to the page with problem description. The design section would details the code structure. The run and extend section would detail the process to run this code, prerequisities, and options to extend this code. I hope that this would make it easier for the reader to learn Rust.
 ## Use-cases
 The use-cases have been borrowed from NYU Cyberfellow class Introduction to Operating Systems. This class has a number of assignments to help the students to better understand various concepts in Operating System. This specific code has implementation for two of those assignments: 
-* Memory allocation lab: This lab project addresses the various memory-management schemes in an operating system.
-* Virtual lab: This lab project addresses the implementation of page-replacement algorithms in a demand-paging system.
-
-[Click here for use-case details](https://github.com/a759116/mos_rust/wiki/Use-Cases)
+* [Memory allocation lab](https://github.com/a759116/mos_rust/wiki/Use-Cases#memory-allocation-lab): This lab project addresses the various memory-management schemes in an operating system.
+* [Virtual lab](https://github.com/a759116/mos_rust/wiki/Use-Cases#virtual-memory-lab): This lab project addresses the implementation of page-replacement algorithms in a demand-paging system.
 
 ## Design
 The solution was developed as two different modules a) Memory for Memory Allocation, and b) Virtual for pagination algorithms in a system that utilized virtual memory. 
@@ -23,7 +21,7 @@ I used "serde" crate to enable serialization and desearilization of structured d
 ## Run and Extend
 Before downloading and running this code, please follow [Rust Getting Started](https://www.rust-lang.org/learn/get-started). At this point, you would have Rust installed. Now you would clone or download this code. Then go to the code directory, and run the command "cargo test --lib". Upon successful run, you would see a message like "test result: ok. 37 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s". 
 
-If you would want to extend this code, you could implement functionality for Disk Scheduling and CPU Scheduling labs following the design stated above and using the code here as examples.
+If you would want to extend this code, you could implement functionality for [Disk Scheduling](https://github.com/a759116/mos_rust/wiki/Use-Cases#disk-scheduling-lab) and [CPU Scheduling](https://github.com/a759116/mos_rust/wiki/Use-Cases#cpu-scheduling-lab) labs following the design stated above and using the code here as examples.
 
 ## Conclusion
 This was an attempt to provide an example design and implementation to help the reader to learn Rust. The reader was expected to explore the code on their own. This would be revised based on feedback from readers to acheve the goal of making it easier to learn Rust.
