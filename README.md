@@ -1,6 +1,6 @@
 # Application Development with Rust
 ## Abstract
-The purpose of this article is to make it easier for the reader to learn Rust. This article will provide use-case, and example design and implementation using Rust. The hope is that the reader will be able to explore the example implementation and learn Rust. The reader can extend this and apply their learning to further solidify their undestanding of Rust language.
+The purpose of this article is to make it easier for the reader to learn Rust. This article will provide use-case, and example design and implementation using Rust. The hope is that the reader will be able to explore the example implementation and learn Rust. The reader can extend this and apply their learning to further solidify their understanding of Rust language.
 
 ## Introduction
 I developed this code as part of my learning Rust. I had already developed the same in Python and C as part of my class assignment. I didn't have to spend time in developing logic, rather I focussed on developing the same using Rust. This expedited my learning process. In this article, I would want to sharer the use-cases, and the design that I based this code on. My hope was that this would help the reader not to worry about the use-case or design, rather the reader would explore the implementation using Rust, and this could expedite the Rust learning for the reader.
